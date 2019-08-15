@@ -1,0 +1,11 @@
+name 'company-haproxy'
+maintainer 'Student Name'
+maintainer_email 'them@somewhere.info'
+license 'All Rights Reserved'
+description 'Installs/Configures company-haproxy'
+long_description 'Installs/Configures company-haproxy'
+version '0.1.0'
+chef_version '>= 12.1' if respond_to?(:chef_version)
+depends 'haproxy', '= 3.0.2'
+supports 'centos'
+supports 'ubuntu'
