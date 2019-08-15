@@ -1,7 +1,8 @@
-default['haproxy']['members'] = [{'hostname'  => 'web1',
+default['haproxy']['members'] = [{
+                                  'hostname'  => 'web1',
                                   'ipaddress' => '10.1.1.3',
                                   'port'      => 80,
-                                  'ssl_port'  => 443, 
+                                  'ssl_port'  => 443,
                                  },
                                  {
                                   'hostname'  => 'web2',
